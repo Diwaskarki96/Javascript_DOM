@@ -1,3 +1,5 @@
+make all parent position relative
+
 # Dom => document object model
 
 # 4 pillar of dom =>
@@ -39,4 +41,6 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 
-in custom cursor, you can write anything instead of event
+# in custom cursor, you can write anything instead of event
+
+# in hover animation, check console.log(val.childNodes[]) in broswer. it shows in child in array form. is shows like 0:text, 1:h1. choose which one is needed (in my case i chose 3 which was img)
