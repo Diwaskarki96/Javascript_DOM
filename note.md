@@ -30,3 +30,11 @@ a.innerHTML = "Hi hello i am diwas";
 a.style.color = "Grey";
 a.style.backgroundColor = "purple";
 });
+
+# Css => center(euta div ma duita kura xa ra jamma euta specific lai center garna lai)
+
+parent=position: relative
+center garne lai= position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
