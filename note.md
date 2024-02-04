@@ -38,3 +38,5 @@ center garne lai= position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+
+in custom cursor, you can write anything instead of event
