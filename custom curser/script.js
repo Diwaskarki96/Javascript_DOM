@@ -1,7 +1,7 @@
 const main = document.querySelector("#main");
 const cursor = document.querySelector("#cursor");
 
-main.addEventListener("mousemove", (event) => {
-  cursor.style.left = event.x + "px";
-  cursor.style.top = event.y + "px";
+main.addEventListener("mousemove", (item) => {
+  cursor.style.left = item.x + "px";
+  cursor.style.top = item.y + "px";
 });
