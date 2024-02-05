@@ -14,19 +14,25 @@ body {
   justify-content: center;
 }
 #card {
-  height: 480px;
-  width: 350px;
+  height: 500px;
+  width: 300px;
   background-color: white;
   border-radius: 10%;
   border: 3px solid black;
   overflow: hidden;
+  position: relative;
 }
 #allStory {
   height: 120px;
   width: 100%;
   border-bottom: 1px solid black;
-
   padding: 15px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+#allStory::-webkit-scrollbar {
+  display: none;
 }
 .story {
   height: 90px;
@@ -34,10 +40,20 @@ body {
   border: solid red 3px;
   border-radius: 50%;
   overflow: hidden;
+  display: inline-block;
+  margin-right: 5px;
 }
 img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+#fullScreen {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: none;
+  background-size: cover;
+  background-position: center;
 }
