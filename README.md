@@ -8,9 +8,7 @@ This repository contains my learning journey as I explore the Document Object Mo
 
 1.Add friend
 
-```bash
 https://addd-friend.netlify.app/
-```
 
 Implementation of a simple "Add Friend" button, mimicking the functionality found in social media platforms like Facebook.
 
